@@ -1,0 +1,32 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+    <arg name="serial_port" value="/dev/ttyUSB0" />
+
+    <node name="dynamixel_manager" pkg="dynamixel_controllers" type="controller_manager.py" required="true" output="screen">
+        <rosparam>
+            namespace: dxl_manager
+            serial_ports:
+                pan_tilt_port:
+                    baud_rate: 1000000
+                    min_motor_id: 30
+                    max_motor_id: 38
+                    update_rate: 20
+        </rosparam>
+        <rosparam param="/dynamixel_manager/serial_ports/pan_tilt_port/port_name" subst_value="True">$(arg serial_port)</rosparam>
+    </node>
+</launch>
+
+<!--     
+    Dynamixel IDs
+    
+    30 Main board
+    31 Wrist Rotation
+    32 Wrist Adduction
+    33 Wrist Flexion
+    34 Thumb Adduction
+    35 Thumb Flexion
+    36 Index Flexion
+    37 Middle finger Flexion
+    38 4th and 5th finger flexion (with tendon tension equalization to conform to the object shape).
+ -->

@@ -1,0 +1,103 @@
+wrist_rotation_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: wrist_rotation
+    joint_speed: 100.0
+    motor:
+        id: 31
+        init: 0
+        min: 0
+        max: 4095
+        
+wrist_adduction_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: wrist_adduction
+    joint_speed: 100.0
+    motor:
+        id: 32
+        init: 0
+        min: 0
+        max: 4095
+
+wrist_flexion_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: wrist_flexion
+    joint_speed: 100.0
+    motor:
+        id: 33
+        init: 0
+        min: 0
+        max: 4095
+
+thumb_adduction_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: thumb_adduction
+    joint_speed: 100.0
+    motor:
+        id: 34
+        init: 0
+        min: 0
+        max: 4095
+
+thumb_flexion_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: thumb_flexion
+    joint_speed: 100.0
+    motor:
+        id: 35
+        init: 0
+        min: 0
+        max: 4095
+
+index_flexion_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: index_flexion
+    joint_speed: 100.0
+    motor:
+        id: 36
+        init: 0
+        min: 0
+        max: 4095
+
+middle_flexion_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: middle_flexion
+    joint_speed: 100.0
+    motor:
+        id: 37
+        init: 0
+        min: 0
+        max: 4095
+
+ring_and_pinky_flexion_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: ring_and_pinky_flexion
+    joint_speed: 100.0
+    motor:
+        id: 38
+        init: 0
+        min: 0
+        max: 4095

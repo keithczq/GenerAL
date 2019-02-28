@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_description
+    relative_path: urdf/ur5_gazebo.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/ur5.srdf
+  CONFIG:
+    author_name: max
+    author_email: fx2155@columbia.edu
+    generated_timestamp: 1554862690

@@ -1,0 +1,18 @@
+[submodule "staubli_barretthand_moveit_config"]
+	path = staubli_barretthand_moveit_config
+	url = git@github.com:CURG/staubli_barretthand_moveit_config.git
+[submodule "staubli_barretthand_description"]
+	path = staubli_barretthand_description
+	url = git@github.com:CURG/staubli_barretthand_description.git
+[submodule "barrett_hand"]
+	path = barrett_hand
+	url = git@github.com:CURG/barrett_hand.git
+[submodule "barrett_hand_common"]
+	path = barrett_hand_common
+	url = git@github.com:CURG/barrett_hand_common.git
+[submodule "staubli_description"]
+	path = staubli_description
+	url = git@github.com:CURG/staubli_description.git
+[submodule "barrett_tactile_msgs"]
+	path = barrett_tactile_msgs
+	url = git@github.com:CURG/barrett_tactile_msgs.git

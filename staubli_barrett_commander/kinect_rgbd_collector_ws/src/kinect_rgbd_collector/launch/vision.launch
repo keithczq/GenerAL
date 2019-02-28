@@ -1,0 +1,9 @@
+<launch>
+
+    <include file="$(find freenect_launch)/launch/freenect.launch">
+        <arg name="depth_registration" value="true" />
+        <!-- <arg name="bond" value="true" /> -->
+        <arg name="data_skip" value="10"/>
+    </include>
+
+</launch>

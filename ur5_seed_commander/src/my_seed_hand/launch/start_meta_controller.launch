@@ -1,0 +1,34 @@
+<launch>
+<!-- Start tilt joint controller -->
+    <rosparam file="$(find my_seed_hand)/motion_controller/action_server/config/tilt.yaml" command="load"/>
+    <node name="controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+          args="--manager=dxl_manager
+                --port pan_tilt_port
+                wrist_rotation_controller
+                wrist_adduction_controller
+                wrist_flexion_controller
+                thumb_adduction_controller
+                thumb_flexion_controller
+                index_flexion_controller
+                middle_flexion_controller
+                ring_and_pinky_flexion_controller
+                "
+          output="screen"/>
+
+  <!-- Start joints trajectory controller controller -->
+    <rosparam file="$(find my_seed_hand)/motion_controller/action_server/config/joints_trajectory_controller.yaml" command="load"/>
+    <node name="controller_spawner_meta" pkg="dynamixel_controllers" type="controller_spawner.py"
+          args="--manager=dxl_manager
+                --type=meta
+                seed_hand_controller
+                wrist_rotation_controller
+                wrist_adduction_controller
+                wrist_flexion_controller
+                thumb_adduction_controller
+                thumb_flexion_controller
+                index_flexion_controller
+                middle_flexion_controller
+                ring_and_pinky_flexion_controller
+               "
+          output="screen"/>
+</launch>

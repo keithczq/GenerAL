@@ -1,0 +1,24 @@
+<package>
+  <name>staubli_description</name>
+  <version>0.1.0</version>
+  <description>
+     staubli_description 
+  </description>
+
+  <author>root</author>
+  <maintainer email="mentaris@gmail.com">mentar</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://hack.rs/w/Robotics</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+    <architecture_independent />
+  </export>
+</package>

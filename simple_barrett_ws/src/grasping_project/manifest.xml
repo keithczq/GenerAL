@@ -1,0 +1,14 @@
+<package>
+  <description brief="grasping_project">
+
+     grasping_project
+
+  </description>
+  <author>Bohan Wu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/grasping_project</url>
+
+</package>
+
+

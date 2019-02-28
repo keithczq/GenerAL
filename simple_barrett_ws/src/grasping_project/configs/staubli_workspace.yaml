@@ -1,0 +1,61 @@
+walls: 
+  - name: "table"
+    x_thickness: 3
+    y_thickness: 4.25
+    z_thickness: 0.05
+    qx: 0
+    qy: 0
+    qz: 0
+    qw: 1
+    x: 0
+    y: 0.0
+    z: -0.362
+    frame_id: staubli_rx60l_link1
+  - name: "right_wall_new"
+    x_thickness: 2.00
+    y_thickness: 1 
+    z_thickness: 0.05
+    qx: 0.70711 
+    qy: 0
+    qz: 0
+    qw: 0.70711
+    x: 0.3
+    y: 0.9
+    z: 0.08
+    frame_id: staubli_rx60l_link1
+  - name: "left_wall_new"
+    x_thickness: .9
+    y_thickness: 0.9 
+    z_thickness: 0.05
+    qx: 0.70711 
+    qy: 0
+    qz: 0
+    qw: 0.70711
+    x: 0.3
+    y: -0.8
+    z: 0.08
+    frame_id: staubli_rx60l_link1
+  - name: "back_wall_new"
+    x_thickness: 1.75
+    y_thickness: 1.75
+    z_thickness: 0.05
+    qx: 0
+    qy: 0.70711
+    qz: 0
+    qw: 0.70711
+    x: 0.7
+    y: 0.0
+    z: -0.4255
+    frame_id: staubli_rx60l_link1
+  - name: "camera"
+    x_thickness: 0.6
+    y_thickness: .8
+    z_thickness: 0.4
+    qx: 0
+    qy: 0
+    qz: 0
+    qw: 1
+    x: -0.7
+    y: 0.0
+    z: 0.80
+    frame_id: staubli_rx60l_link1

@@ -1,0 +1,7 @@
+location: src
+sources:
+
+# Staubli Robot Includes
+- name: staubli_barrett_meta_package
+  repo: 'git@github.com:CRLab/staubli_barrett_meta_package.git'
+  rev: master

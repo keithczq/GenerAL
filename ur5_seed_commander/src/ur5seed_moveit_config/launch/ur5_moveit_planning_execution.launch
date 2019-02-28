@@ -1,0 +1,14 @@
+<launch>
+  <arg name="sim" default="true" />
+  <arg name="id"/>
+  <arg name="master"/>
+
+  <!-- Remap follow_joint_trajectory -->
+  <remap if="$(arg sim)" from="/follow_joint_trajectory" to="/arm_controller/follow_joint_trajectory"/>
+  
+  <!-- Launch moveit -->
+  <include file="$(find ur5seed_moveit_config)/launch/move_group.launch">
+      <arg name="id" value="$(arg id)"/>
+      <arg name="master" value="true"/>
+  </include>
+</launch>
