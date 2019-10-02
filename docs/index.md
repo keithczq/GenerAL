@@ -5,7 +5,7 @@
     <a target="_blank" href="http://www.cs.columbia.edu/~iakinola/">Iretiayo Akinola<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Abhi Gupta<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Feng Xu<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
-    <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Jacob Varley<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
+    <a target="_blank" href="http://www.cs.columbia.edu/~jvarley/">Jacob Varley<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">David Watkins-Valls<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, and 
     <a target="_blank" href="http://www.cs.columbia.edu/~allen/">Peter Allen<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a><br>
   </p><p>
