@@ -1,7 +1,7 @@
 
 <center>
   <p>
-    <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Bohan Wu<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
+    <a target="_blank" href="https://bohanwu.github.io/">Bohan Wu<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://www.cs.columbia.edu/~iakinola/">Iretiayo Akinola<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Abhi Gupta<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
     <a target="_blank" href="http://crlab.cs.columbia.edu/GenerAL/">Feng Xu<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>, 
